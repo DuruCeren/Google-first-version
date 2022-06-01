@@ -1,0 +1,41 @@
+img {
+    display: block;
+    margin: 0 auto;
+    width: 311;
+    height: 113;
+}
+
+div {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#forSearch {
+    display: block;
+    break-after: always;
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+#specialSearches {
+    flex-basis: inherit;
+    text-align: center;
+    background-color: #7EE5DA;
+    width: 37%;
+    float: left;
+}
+
+#aboutGoogle {
+    flex-basis: inherit;
+    text-align: center;
+    background-color: #70CCC2;
+    width: 20%;
+    float: left;
+}
+
+/* This is the class which clears the margin and padding. */
+.zeroGap {
+    padding: 0;
+    margin: 0;
+}
